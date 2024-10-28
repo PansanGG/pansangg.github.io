@@ -11,6 +11,10 @@ h1,p {
     font-style: normal;
 }
 
+tt {
+  background-color: #011;
+}
+
 .title {
     text-align: center;
     font-size: 50px;
@@ -43,6 +47,12 @@ h1,p {
 }
 
 .buttons img:hover {
+    box-shadow: 0 0 50px #dee;
+    transform: scale(1.2);
+}
+
+.buttons img:active {
+    box-shadow: 0 0 50px #1f2;
     transform: scale(1.5);
 }
 
