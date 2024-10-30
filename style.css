@@ -86,6 +86,6 @@ tt {
 }
 
 .bday {
-    background-color: linear-gradient(to right, #2222DD, #AA33CC, #DD22DD);
+    background: linear-gradient(to right, #2222DD, #AA33CC, #DD22DD);
     font-size: 40px;
 }
