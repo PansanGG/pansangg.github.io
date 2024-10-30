@@ -19,12 +19,18 @@ tt {
     text-align: center;
     font-size: 50px;
     text-shadow: 0 0 10px #ddddee;
-    transition: all 0.5s
+    transition: all 0.3s ease
 }
 
 .title:hover {
-    text-shadow: 0 0 20px #ddddee;
+    text-shadow: 0 0 20px #dee;
     cursor: pointer;
+}
+
+.title:active {
+    text-shadow: 0 0 20px #1f2;
+    cursor: pointer;
+    color: #1f2;
 }
 
 .bio {
@@ -69,4 +75,12 @@ tt {
     text-decoration-style: wavy;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+::-moz-progress-bar {
+    background-color: #1a1;
+}
+
+.pbar {
+    border-radius: 25px;
 }

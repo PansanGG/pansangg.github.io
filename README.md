@@ -1,1 +1,0 @@
-# pansangg.github.io
