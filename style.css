@@ -86,7 +86,6 @@ tt {
     border-radius: 25px;
 }
 
-<<<<<<< HEAD
 .graveyard {
     display: flex;
     flex-direction: row;
@@ -134,11 +133,6 @@ tt {
     transition: all 0.3s ease
 }
 
-.spoiler:active {
+.spoiler:hover {
     filter: none;
-=======
-.bday {
-    background: linear-gradient(90deg, rgba(41,255,218,1) 0%, rgba(58,76,255,1) 35%, rgba(240,39,255,1) 100%);
-    font-size: 40px;
->>>>>>> 855accae07bdfbc917eaf4b1f7a6e08b9b06527c
 }
