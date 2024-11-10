@@ -19,7 +19,7 @@ tt {
     text-align: center;
     font-size: 50px;
     text-shadow: 0 0 10px #ddddee;
-    transition: all 0.3s ease
+    transition: all 0.3s easefont-size: 20px;
 }
 
 .title:hover {
@@ -47,7 +47,8 @@ tt {
 .buttons img {
     width: 88px;
     height: 31px;
-    padding: 2.5px;
+    margin: 2.5px;
+    border: 1px solid #111;
     transition: all 0.2s ease;
     image-rendering: pixelated;
 }
@@ -83,4 +84,55 @@ tt {
 
 .pbar {
     border-radius: 25px;
+}
+
+.graveyard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.gbox {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #111;
+    border-radius: 10px;
+    background: #233;
+    transition: all 0.3s ease;
+    width: 40%;
+}
+
+.gbox img {
+    transition: all 0.3s ease;
+    max-width: 210px;
+}
+
+.gbox:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 100px #344;
+    cursor: pointer;
+}
+
+.gbox:hover .gname {
+    font-size: 30px;
+}
+
+.gname {
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+
+.gdesc {
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.spoiler {
+    filter: blur(3px);
+    transition: all 0.3s ease
+}
+
+.spoiler:active {
+    filter: none;
 }
