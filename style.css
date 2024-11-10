@@ -19,7 +19,7 @@ tt {
     text-align: center;
     font-size: 50px;
     text-shadow: 0 0 10px #ddddee;
-    transition: all 0.3s easefont-size: 20px;
+    transition: all 0.3s ease;
 }
 
 .title:hover {
