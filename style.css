@@ -3,9 +3,6 @@
 body {
     background-color: #122;
     color: #dee;
-}
-
-h1,p {
     font-family: "Roboto Slab", serif;
     font-weight: 500;
     font-style: normal;
@@ -31,6 +28,19 @@ tt {
     text-shadow: 0 0 20px #1f2;
     cursor: pointer;
     color: #1f2;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-button {
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 25px;
 }
 
 .bio {
@@ -59,12 +69,17 @@ tt {
 }
 
 .buttons img:active {
-    box-shadow: 0 0 50px #1f2;
-    transform: scale(1.5);
+    box-shadow: 0 0 50px #1f2; 
 }
 
 .rus {
-    background-image: linear-gradient(to bottom, white 0%, white 44%, blue 33%, blue 66%, red 66%, red 100%);
+    background-image: linear-gradient(to bottom, white 0%, white 50%, blue 44%, blue 66%, red 66%, red 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ukr {
+    background-image: linear-gradient(to bottom, blue 0%, blue 50%, gold 50%, gold 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
